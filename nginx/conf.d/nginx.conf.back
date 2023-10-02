@@ -1,0 +1,16 @@
+http {
+    # Other http directives go here...
+
+    # upstream backendserver {
+    #     server 127.0.0.1:1111;
+    #     server 127.0.0.1:1112;
+    #     server 127.0.0.1:1113;
+    #     server 127.0.0.1:1115;
+    # }
+
+    include /etc/nginx/conf.d/app.conf;
+
+   
+}
+
+events {}
